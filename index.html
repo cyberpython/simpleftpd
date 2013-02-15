@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Simpleftpd by cyberpython</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Simpleftpd</h1>
+        <p class="header">A simple command line wrapper around Apache MINA FTP server</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/cyberpython/simpleftpd/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/cyberpython/simpleftpd/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/cyberpython/simpleftpd">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/cyberpython">cyberpython</a></p>
+
+
+      </header>
+      <section>
+        <h1>SimpleFTPD</h1>
+
+<h2>Overview</h2>
+
+<p>SimpleFTPD is a simple FTP server written in Java. Actually, it is a command-line wrapper around the excellent Apache Mina FTP server library.</p>
+
+<h2>Installation</h2>
+
+<p>You need to have JRE 6.x+ installed. Then, just extract <code>simpleftpd_x.x.zip</code> somewhere on your filesystem.</p>
+
+<h2>Usage</h2>
+
+<p>To run the server give:</p>
+
+<pre><code>java -jar simpleftpd.jar [-p port] [-u users_file]
+</code></pre>
+
+<p>To run the user management utility give:</p>
+
+<pre><code>java -jar simpleftpd-manager
+</code></pre>
+
+<p>and you will get a somewhat descriptive usage message :)</p>
+
+<h2>How to build</h2>
+
+<p>You will need git, Apache Ant and JDK 6+ to build from source code.
+Then give:</p>
+
+<pre><code>git clone git://github.com/cyberpython/simpleftpd.git
+cd simpleftpd
+ant clean jar
+</code></pre>
+
+<p>... and that's it! You should now have a <code>dist</code> directory containing the executable jar files.</p>
+
+<h2>Information and license</h2>
+
+<p>The project's source code is distributed under the terms of the Apache License v2.0.</p>
+
+<p>Libraries used:</p>
+
+<ul>
+<li>Apache MINA core</li>
+<li>Apache MINA FTP server</li>
+<li>Log4J</li>
+<li>SLF4J</li>
+<li>JOptSimple</li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
